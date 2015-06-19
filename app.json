@@ -1,0 +1,14 @@
+{
+	"id": "PHPfox_Cache_Redis",
+	"name": "PHPfox Redis Cache Lib",
+	"version": "1.0",
+	"lib": {
+		"cache": "\\Apps\\PHPfox_Cache_Redis\\Model\\Cache"
+	},
+	"settings": {
+		"redis_cache_path": {
+			"info": "Redis TCP URL",
+			"type": "input:text"
+		}
+	}
+}
